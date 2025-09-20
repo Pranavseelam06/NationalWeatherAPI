@@ -22,5 +22,5 @@ GET /checkSafety?lat={latitude}&lon={longitude}
 ## Example
 http://127.0.0.1:8000/checkSafety?lat=40.4259&lon=-86.9081
 
-# Note
+##### Note
 Built a FastAPI-based safety-check API. Used AI tools (ChatGPT) for scaffolding and debugging, and customized the logic for my use case.
