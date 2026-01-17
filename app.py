@@ -42,3 +42,6 @@ def check_safety(
             for n, la, lo, d in safe_cities
         ]
     }
+@app.get("/health")
+def health():
+    return {"status": "ok"}
